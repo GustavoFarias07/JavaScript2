@@ -1,0 +1,54 @@
+:root {
+    --preto: black;
+    --branco: white;
+    --cinza: gray;
+}
+
+body {
+    background: rgb(255, 0, 0);
+    background: linear-gradient(90deg, rgba(255, 0, 0, 1) 13%, rgba(51, 0, 255, 1) 80%);
+}
+
+header {
+    color: var(--branco);
+    text-align: center;
+    text-shadow: 2px 2px 3px var(--cinza);
+}
+
+section{
+    background-color: var(--branco);
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+    width: 520px;
+    text-shadow: 1px 1px 3px var(--preto);
+    border-radius: 5px;
+}
+
+footer {
+    color: var(--branco);
+    text-align: center;
+    text-shadow: 2px 2px 3px var(--cinza);
+}
+
+button {
+    margin: 3px;
+    padding: 6px;
+    margin-top: 10px;
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+    width: 110px;
+}
+
+img {
+    width: 110px;
+}
+
+#Verificacao {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}

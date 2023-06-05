@@ -1,0 +1,47 @@
+:root{
+    --preto: black;
+    --branco: white;
+    --fundo: rgba(61, 61, 255, 0.875);
+    --cinza: gray;
+    --aprovado: rgb(3, 255, 3);
+    --reprovado: red;
+}
+body{
+    background-color: var(--fundo);
+}
+header{
+    color: var(--branco);
+    text-align: center;
+    text-shadow: 2px 2px 3px var(--cinza);
+}
+div{
+    color: var(--preto);
+    background-color: var(--branco);
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+    width: 300px;
+    text-shadow: 1px 1px 3px var(--preto);
+    border-radius: 5px;
+}
+footer{
+    color: var(--branco);
+    text-align: center;
+    text-shadow: 2px 2px 3px var(--cinza);
+}
+button{
+    margin: 3px;
+    padding: 6px;
+    margin-top: 10px;
+}   
+input{
+    margin: 5px;
+    padding: 5px;
+}
+
+.aprovado{
+    color: var(--aprovado);
+}
+.reprovado{
+    color: var(--reprovado);
+}
